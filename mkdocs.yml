@@ -1,0 +1,64 @@
+site_name: ControlBit BLE Gateway
+site_description: ESP32-S3 BLE 스캔 게이트웨이 (UWB 앵커 v1.2 PCB 파생 모델)
+site_url: https://wshan1977.github.io/controlbit_bleGateWay/
+repo_url: https://github.com/wshan1977/controlbit_bleGateWay
+repo_name: wshan1977/controlbit_bleGateWay
+edit_uri: edit/main/doc/
+
+docs_dir: doc
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.tracking
+    - navigation.top
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 다크 모드로 전환
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 라이트 모드로 전환
+
+plugins:
+  - search
+
+nav:
+  - 장치 사양: index.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/wshan1977/controlbit_bleGateWay
