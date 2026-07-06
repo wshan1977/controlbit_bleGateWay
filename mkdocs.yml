@@ -1,5 +1,5 @@
 site_name: ControlBit BLE Gateway
-site_description: ESP32-S3 BLE 스캔 게이트웨이 (UWB 앵커 v1.2 PCB 파생 모델)
+site_description: ESP32-S3 BLE 스캔 게이트웨이 — BLE 광고 수신 · MQTT 전달
 site_url: https://wshan1977.github.io/controlbit_bleGateWay/
 repo_url: https://github.com/wshan1977/controlbit_bleGateWay
 repo_name: wshan1977/controlbit_bleGateWay
